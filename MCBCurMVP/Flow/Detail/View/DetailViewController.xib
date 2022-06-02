@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="MCBCurMVP" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outletCollection property="rateLabels" destination="csB-n3-zhd" collectionClass="NSMutableArray" id="mZ2-k3-ciY"/>
+                <outletCollection property="rateLabels" destination="afD-ki-pya" collectionClass="NSMutableArray" id="fQ7-Qd-IWM"/>
+                <outletCollection property="rateLabels" destination="BLg-zk-h3U" collectionClass="NSMutableArray" id="Lw7-UG-f0p"/>
+                <outletCollection property="rateLabels" destination="kS3-Qa-UIT" collectionClass="NSMutableArray" id="SYb-V5-ql5"/>
+                <outletCollection property="rateLabels" destination="hww-qX-Qtq" collectionClass="NSMutableArray" id="qaI-LB-dvB"/>
+                <outletCollection property="rateLabels" destination="HAN-7l-uzz" collectionClass="NSMutableArray" id="NTw-NY-JWh"/>
+                <outletCollection property="rateLabels" destination="IJX-nw-2NB" collectionClass="NSMutableArray" id="zqM-Em-2zL"/>
+                <outletCollection property="rateLabels" destination="yfw-9X-Hnt" collectionClass="NSMutableArray" id="ydJ-n6-y3G"/>
+                <outletCollection property="rateLabels" destination="JlM-yt-Rra" collectionClass="NSMutableArray" id="dLl-bY-84b"/>
+                <outletCollection property="rateLabels" destination="Qxb-en-gd1" collectionClass="NSMutableArray" id="V1c-zd-X7J"/>
+                <outletCollection property="rateLabels" destination="Ogb-wn-5UJ" collectionClass="NSMutableArray" id="bSt-aB-gcD"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="1sw-Ve-NAb">
+                    <rect key="frame" x="20" y="64" width="374" height="305.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="0tp: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csB-n3-zhd" userLabel="TpLabel">
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" text="1name: " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afD-ki-pya" userLabel="NameLabel">
+                            <rect key="frame" x="0.0" y="28.5" width="374" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" text="2from: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BLg-zk-h3U" userLabel="FromLabel">
+                            <rect key="frame" x="0.0" y="57" width="374" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" text="3currMnemFrom: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kS3-Qa-UIT" userLabel="CurrMnemFromLabel">
+                            <rect key="frame" x="0.0" y="85.5" width="374" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" text="4to: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hww-qX-Qtq" userLabel="ToLabel">
+                            <rect key="frame" x="0.0" y="114" width="374" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="5" contentMode="left" text="5currMnemTo: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAN-7l-uzz" userLabel="CurrMnemToLabel">
+                            <rect key="frame" x="0.0" y="142.5" width="374" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="6" contentMode="left" text="6basic: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJX-nw-2NB" userLabel="BasicLabel">
+                            <rect key="frame" x="0.0" y="171" width="374" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="7" contentMode="left" text="7buy: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yfw-9X-Hnt" userLabel="BuyLabel">
+                            <rect key="frame" x="0.0" y="199.5" width="374" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="8" contentMode="left" text="8sale: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JlM-yt-Rra" userLabel="SaleLabel">
+                            <rect key="frame" x="0.0" y="228" width="374" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="9" contentMode="left" text="9deltaBuy: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qxb-en-gd1" userLabel="DeltaBuyLabel">
+                            <rect key="frame" x="0.0" y="256.5" width="374" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="10" contentMode="left" text="10deltaSale: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ogb-wn-5UJ" userLabel="DeltaSaleLabel">
+                            <rect key="frame" x="0.0" y="285" width="374" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="1sw-Ve-NAb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="DxN-fP-hh3"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="1sw-Ve-NAb" secondAttribute="trailing" constant="20" id="GyA-7P-eso"/>
+                <constraint firstItem="1sw-Ve-NAb" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="jHu-4O-hqT"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="131"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
